@@ -1,5 +1,6 @@
 package net.coda.tutorialmod;
 
+import net.coda.tutorialmod.block.ModBlocks;
 import net.coda.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -20,6 +21,7 @@ public class TutorialMod implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }
